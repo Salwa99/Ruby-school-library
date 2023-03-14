@@ -13,11 +13,12 @@ class Person
         @age >= 18
     end
 
+    private :is_of_age?
+    
     def can_use_services?
         is_of_age? || @parent_permission
     end
 
-    private
 
     def generate_unique_id
         rand(1..1000)
