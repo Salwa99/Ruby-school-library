@@ -94,8 +94,8 @@ git https://github.com/Salwa99/Ruby-school-library.git
   bundle install
   ```
 ### Run Tests
-    ```sh 
-  Rubocop
+  ```sh 
+  Rubocop --color
   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

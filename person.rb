@@ -9,17 +9,14 @@ class Person
     @parent_permission = parent_permission
   end
 
-  # rubocop:disable Naming/PredicateName
-  def is_of_age?
-    # code to check if the person is of age
+  def of_age?
     @age >= 18
   end
-  # rubocop:enable Naming/PredicateName
 
-  private :is_of_age?
+  private :of_age?
 
   def can_use_services?
-    is_of_age? || @parent_permission
+    of_age? || @parent_permission
   end
 
   def generate_unique_id
