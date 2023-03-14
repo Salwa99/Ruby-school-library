@@ -1,19 +1,143 @@
 # Ruby-school-library
+# 📗 Table of Contents
 
-Create class Person with the following:
-Instance vars: @id, @name, and @age.
-Constructor with name, age, and parent_permission as parameter. name and parent_permission are optional and have default values of "Unknown" and true.
-Getters for @id, @name, and @age.
-Setters for @name and @age.
-Private method is_of_age? that returns true if @age is greater or equal to 18 and false otherwise.
-Public method can_use_services? that returns true if person is of age or if they have permission from parents.
+- [Ruby-school-library](#ruby-school-library)
+- [📗 Table of Contents](#-table-of-contents)
+- [Ruby-school-library ](#ruby-school-library-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Run Tests](#run-tests)
+  - [👥 Authors ](#-authors-)
+    - [👤 **Salwa Ballouti**:](#-salwa-ballouti)
+- [🔭 Future Features:](#-future-features)
+- [🤝 Contributing:](#-contributing)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
-Create class Student with the following:
-Inherits from Person.
-Constructor extends parent's constructor by adding @classroom and a parameter for it.
-Method play_hooky that returns "¯\(ツ)/¯".
+<!-- PROJECT DESCRIPTION -->
 
-Create class Teacher with the following:
-Inherits from Person.
-Constructor extends parent's constructor by adding @specialization and a parameter for it.
-Override can_use_services? so it always returns true.
+# Ruby-school-library <a name="about-project"></a>
+
+> **Ruby-school-library**  is a Ruby project that has the purpose of creating a digital solution for a school library that enables the librarian to keep track of the books in the library and who borrows them.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li>N/A</li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li>N/A</li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **N/A**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+### Prerequisites
+
+In order to run this project you need:
+- Installed Git.
+- Installed Ruby
+- Create a local directory that you want to clone the repository.
+- Open the command prompt in the created directory.
+- On the terminal run this command git clone https://github.com/Salwa99/Ruby-school-library.git
+
+
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```sh 
+git https://github.com/Salwa99/Ruby-school-library.git
+  ```
+  ```sh 
+  cd Ruby-school-library bundle install
+  ```
+  ```sh 
+  bundle install
+  ```
+### Run Tests
+    ```sh 
+  Rubocop
+  ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+### 👤 **Salwa Ballouti**:
+- GitHub: [@Salwa99](https://github.com/Salwa99)
+- Twitter: [@SalwaBallouti](https://twitter.com/salwa_ballouti)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/salwa-ballouti)
+  
+# 🔭 Future Features:
+- Add more advanced Ruby functions.
+- Build wonderful UI.
+
+
+# 🤝 Contributing:
+Contributions, issues, and feature requests are welcome!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+If you liked this project, give it a ⭐️ and kindly send to me an e-mail expressing it, it would make my day and fuel my motivation.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank Microverse team for this journey.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
