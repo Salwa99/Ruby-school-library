@@ -9,6 +9,8 @@ class Student < Person
   end
 
   def play_hooky
+    # rubocop:disable Style/RedundantStringEscape
     "¯\(ツ)/¯"
+    # rubocop:enable Style/RedundantStringEscape
   end
 end
