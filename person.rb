@@ -6,7 +6,7 @@ class Person < Nameable
   attr_reader :id
   attr_accessor :name, :age
 
-  def initialize(age, name, parent_permission = `true`)
+  def initialize(age, name, parent_permission: true)
     super()
     @id = generate_unique_id
     @name = name
