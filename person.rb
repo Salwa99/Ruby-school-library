@@ -1,4 +1,4 @@
-class Person
+class Person < Nameable
   attr_reader :id
   attr_accessor :name, :age
 
@@ -21,5 +21,9 @@ class Person
 
   def generate_unique_id
     rand(1..1000)
+  end
+
+  def correct_name
+    @name
   end
 end
