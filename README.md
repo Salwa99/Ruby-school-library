@@ -1,13 +1,11 @@
-# Ruby-school-library
+
 # 📗 Table of Contents
 
-- [Ruby-school-library](#ruby-school-library)
 - [📗 Table of Contents](#-table-of-contents)
-- [Ruby-school-library ](#ruby-school-library-)
+- [Ruby school library ](#ruby-school-library-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -15,14 +13,14 @@
   - [👥 Authors ](#-authors-)
     - [👤 **Salwa Ballouti**:](#-salwa-ballouti)
 - [🔭 Future Features:](#-future-features)
-- [🤝 Contributing:](#-contributing)
+  - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
-# Ruby-school-library <a name="about-project"></a>
+# Ruby school library <a name="about-project"></a>
 
 > **Ruby-school-library**  is a Ruby project that has the purpose of creating a digital solution for a school library that enables the librarian to keep track of the books in the library and who borrows them.
 
@@ -37,33 +35,16 @@
   </ul>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li>N/A</li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li>N/A</li>
-  </ul>
-</details>
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **N/A**
+- Add Books
+- Add People
+- Add Rentals
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -76,7 +57,7 @@ In order to run this project you need:
 - Installed Ruby
 - Create a local directory that you want to clone the repository.
 - Open the command prompt in the created directory.
-- On the terminal run this command git clone https://github.com/Salwa99/Ruby-school-library.git
+- On the terminal run this command git clone git@github.com:Salwa99/Ruby-school-library.git
 
 
 
@@ -85,7 +66,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh 
-git https://github.com/Salwa99/Ruby-school-library.git
+git clone git@github.com:Salwa99/Ruby-school-library.git
   ```
   ```sh 
   cd Ruby-school-library bundle install
@@ -95,7 +76,7 @@ git https://github.com/Salwa99/Ruby-school-library.git
   ```
 ### Run Tests
   ```sh 
-  Rubocop --color
+  rspec spec
   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -112,9 +93,11 @@ git https://github.com/Salwa99/Ruby-school-library.git
 - Add more advanced Ruby functions.
 - Build wonderful UI.
 
+## 🤝 Contributing <a name="contributing"></a>
 
-# 🤝 Contributing:
 Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
