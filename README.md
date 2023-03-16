@@ -36,20 +36,6 @@
   </ul>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li>N/A</li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li>N/A</li>
-  </ul>
-</details>
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
@@ -81,7 +67,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh 
-git https://github.com/Salwa99/Ruby-school-library.git
+git clone https://github.com/Salwa99/Ruby-school-library.git
   ```
   ```sh 
   cd Ruby-school-library bundle install
@@ -91,7 +77,7 @@ git https://github.com/Salwa99/Ruby-school-library.git
   ```
 ### Run Tests
   ```sh 
-  Rubocop --color
+  rspec spec
   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
