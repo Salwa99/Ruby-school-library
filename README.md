@@ -7,7 +7,6 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -15,7 +14,7 @@
   - [👥 Authors ](#-authors-)
     - [👤 **Salwa Ballouti**:](#-salwa-ballouti)
 - [🔭 Future Features:](#-future-features)
-- [🤝 Contributing:](#-contributing)
+  - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
@@ -55,15 +54,12 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **N/A**
+- Add Books
+- Add People
+- Add Rentals
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -112,9 +108,11 @@ git https://github.com/Salwa99/Ruby-school-library.git
 - Add more advanced Ruby functions.
 - Build wonderful UI.
 
+## 🤝 Contributing <a name="contributing"></a>
 
-# 🤝 Contributing:
 Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
