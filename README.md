@@ -57,7 +57,7 @@ In order to run this project you need:
 - Installed Ruby
 - Create a local directory that you want to clone the repository.
 - Open the command prompt in the created directory.
-- On the terminal run this command git clone https://github.com/Salwa99/Ruby-school-library.git
+- On the terminal run this command git clone git@github.com:Salwa99/Ruby-school-library.git
 
 
 
@@ -66,7 +66,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh 
-git clone https://github.com/Salwa99/Ruby-school-library.git
+git clone git@github.com:Salwa99/Ruby-school-library.git
   ```
   ```sh 
   cd Ruby-school-library bundle install
