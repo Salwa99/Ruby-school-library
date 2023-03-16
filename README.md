@@ -1,9 +1,8 @@
-# Ruby-school-library
+
 # 📗 Table of Contents
 
-- [Ruby-school-library](#ruby-school-library)
 - [📗 Table of Contents](#-table-of-contents)
-- [Ruby-school-library ](#ruby-school-library-)
+- [Ruby school library ](#ruby-school-library-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -21,7 +20,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# Ruby-school-library <a name="about-project"></a>
+# Ruby school library <a name="about-project"></a>
 
 > **Ruby-school-library**  is a Ruby project that has the purpose of creating a digital solution for a school library that enables the librarian to keep track of the books in the library and who borrows them.
 
