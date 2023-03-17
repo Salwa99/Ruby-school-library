@@ -1,11 +1,11 @@
 require './app'
 
-# rubocop:disable Metrics/CyclomaticComplexity
 class Main
   def initialize
     @app = App.new
   end
 
+  # rubocop:disable Metrics/CyclomaticComplexity
   def menu
     puts 'Welcome to School Library App!'
     loop do
@@ -40,8 +40,8 @@ class Main
       end
     end
   end
+  # rubocop:enable Metrics/CyclomaticComplexity
 end
-# rubocop:enable Metrics/CyclomaticComplexity
 
 main = Main.new
 main.menu
