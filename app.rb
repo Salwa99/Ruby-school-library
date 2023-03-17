@@ -1,3 +1,5 @@
+# rubocop:disable Layout/EndOfLine
+
 require './person'
 require './student'
 require './teacher'

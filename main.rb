@@ -1,5 +1,6 @@
 require './app'
 
+# rubocop:disable Metrics/CyclomaticComplexity
 class Main
   def initialize
     @app = App.new
@@ -32,7 +33,7 @@ class Main
       when '6'
         @app.list_rentals
       when '7'
-        puts 'Thank you for using our library ^^'
+        puts 'Thank you for using our library ¯\^-^/¯'
         return
       else
         puts 'Please enter a number between 1 and 7'
@@ -40,6 +41,7 @@ class Main
     end
   end
 end
+# rubocop:enable Metrics/CyclomaticComplexity
 
 main = Main.new
 main.menu
